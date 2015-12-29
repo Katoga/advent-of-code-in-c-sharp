@@ -5,16 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AdventOfCode"
         mc:Ignorable="d"
-        Title="Advent of Code" Height="300" Width="300">
+        Title="Advent of Code" Height="300" Width="400">
     <Grid>
-        <ComboBox x:Name="day" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="200">
-            <ComboBoxItem Content="Day 1: Not Quite Lisp" HorizontalAlignment="Left" Width="200"/>
+        <ComboBox x:Name="day" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="300">
+            <ComboBoxItem Content="Day 1: Not Quite Lisp" HorizontalAlignment="Left" Width="300"/>
+            <ComboBoxItem Content="Day 2: I Was Told There Would Be No Math" HorizontalAlignment="Left" Width="300"/>
         </ComboBox>
-        <ComboBox x:Name="part" HorizontalAlignment="Left" Margin="215,10,0,0" VerticalAlignment="Top" Width="60">
+        <ComboBox x:Name="part" HorizontalAlignment="Left" Margin="315,10,0,0" VerticalAlignment="Top" Width="60">
             <ComboBoxItem Content="part 1" HorizontalAlignment="Left" Width="60"/>
             <ComboBoxItem Content="part 2" HorizontalAlignment="Left" Width="60"/>
         </ComboBox>
-        <TextBox x:Name="inputData" HorizontalAlignment="Left" Height="100" Margin="10,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265"/>
+        <TextBox x:Name="inputData" Width="365" Height="100" Margin="10,37,0,0" TextWrapping="Wrap" AcceptsReturn="True" HorizontalAlignment="Left" VerticalAlignment="Top" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
         <Button x:Name="solve" Content="Get solution" HorizontalAlignment="Left" Margin="10,142,0,0" VerticalAlignment="Top" Width="100" Click="solve_Click"/>
         <TextBlock x:Name="solution" HorizontalAlignment="Left" Margin="10,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265" Height="50"/>
 
