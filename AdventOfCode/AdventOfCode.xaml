@@ -8,15 +8,15 @@
         Title="Advent of Code" Height="300" Width="300">
     <Grid>
         <ComboBox x:Name="day" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="200">
-            <ComboBoxItem Content="Day 1: Not Quite Lisp" HorizontalAlignment="Left" Width="180"/>
+            <ComboBoxItem Content="Day 1: Not Quite Lisp" HorizontalAlignment="Left" Width="200"/>
         </ComboBox>
-        <ComboBox x:Name="part" HorizontalAlignment="Left" Margin="215,10,0,0" VerticalAlignment="Top" Width="50">
-            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="30"/>
-            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="30"/>
+        <ComboBox x:Name="part" HorizontalAlignment="Left" Margin="215,10,0,0" VerticalAlignment="Top" Width="60">
+            <ComboBoxItem Content="part 1" HorizontalAlignment="Left" Width="60"/>
+            <ComboBoxItem Content="part 2" HorizontalAlignment="Left" Width="60"/>
         </ComboBox>
-        <TextBox x:Name="inputData" HorizontalAlignment="Left" Height="100" Margin="10,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255"/>
-        <Button x:Name="solve" Content="Get solution" HorizontalAlignment="Left" Margin="10,142,0,0" VerticalAlignment="Top" Width="100"/>
-        <TextBlock x:Name="solution" HorizontalAlignment="Left" Margin="10,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" Height="50"/>
+        <TextBox x:Name="inputData" HorizontalAlignment="Left" Height="100" Margin="10,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265"/>
+        <Button x:Name="solve" Content="Get solution" HorizontalAlignment="Left" Margin="10,142,0,0" VerticalAlignment="Top" Width="100" Click="solve_Click"/>
+        <TextBlock x:Name="solution" HorizontalAlignment="Left" Margin="10,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265" Height="50"/>
 
     </Grid>
 </Window>
